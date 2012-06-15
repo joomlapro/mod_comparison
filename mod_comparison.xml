@@ -16,8 +16,8 @@
 		<filename>index.html</filename>
 	</files>
 	<languages>
-		<language tag="pt-BR">pt-BR.mod_comparison.ini</language>
-		<language tag="pt-BR">pt-BR.mod_comparison.sys.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.mod_comparison.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.mod_comparison.sys.ini</language>
 	</languages>
 	<media destination="mod_comparison" folder="media">
 		<folder>css</folder>
