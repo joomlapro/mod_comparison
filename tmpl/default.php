@@ -23,7 +23,7 @@ JHtml::script('mod_comparison/jquery.qbeforeafter.js', false, true);
 	<script type="text/javascript">
 		$(function () {
 		    $('.comparison<?php echo $uniqueid ?>').qbeforeafter({
-		        defaultgap: 225,
+		        defaultgap: <?php echo intval($width / 2) ?>,
 		        leftgap: 0,
 		        rightgap: 0,
 		        caption: <?php echo $captions ?>,
