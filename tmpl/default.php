@@ -15,24 +15,24 @@ JHtml::script('mod_comparison/jquery.qbeforeafter.js', false, true);
 ?>
 <div class="comparisons<?php echo $moduleclass_sfx ?>">
 	<style type="text/css">
-		.comparison {
-			width: 450px;
-			height: 604px;
+		.comparison<?php echo $uniqueid ?> {
+			width: <?php echo $width ?>px;
+			height: <?php echo $height ?>px;
 		}
 	</style>
 	<script type="text/javascript">
 		$(function () {
-		    $('.comparison').qbeforeafter({
+		    $('.comparison<?php echo $uniqueid ?>').qbeforeafter({
 		        defaultgap: 225,
 		        leftgap: 0,
 		        rightgap: 0,
-		        caption: true,
+		        caption: <?php echo $captions ?>,
 		        reveal: 0.5
 		    });
 		});
 	</script>
-	<div class="comparison">
-		<img width="450" height="604" alt="before" src="/images/ba_demo_1.jpg">
-		<img width="450" height="604" alt="after" src="/images/ba_demo_2.jpg">
+	<div class="comparison<?php echo $uniqueid ?>">
+		<img width="<?php echo $width ?>" height="<?php echo $height ?>" alt="<?php echo $beforecaption ?>" src="<?php echo 'images/' . $beforeimage ?>">
+		<img width="<?php echo $width ?>" height="<?php echo $height ?>" alt="<?php echo $aftercaption ?>" src="<?php echo 'images/' .$afterimage ?>">
 	</div>
 </div>
