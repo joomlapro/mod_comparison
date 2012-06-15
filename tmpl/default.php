@@ -32,7 +32,7 @@ JHtml::script('mod_comparison/jquery.qbeforeafter.js', false, true);
 		});
 	</script>
 	<div class="comparison<?php echo $uniqueid ?>">
-		<img width="<?php echo $width ?>" height="<?php echo $height ?>" alt="<?php echo $beforecaption ?>" src="<?php echo 'images/' . $beforeimage ?>">
-		<img width="<?php echo $width ?>" height="<?php echo $height ?>" alt="<?php echo $aftercaption ?>" src="<?php echo 'images/' .$afterimage ?>">
+		<img width="<?php echo $width ?>" height="<?php echo $height ?>" alt="<?php echo $beforecaption ?>" src="<?php echo 'images/' . $beforeimage ?>" />
+		<img width="<?php echo $width ?>" height="<?php echo $height ?>" alt="<?php echo $aftercaption ?>" src="<?php echo 'images/' .$afterimage ?>" />
 	</div>
 </div>
