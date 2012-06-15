@@ -27,17 +27,17 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="uniqueid" type="text" size="20" default="5" label="Uniqe ID" description="Usefull if there is more then one 'Before'" />
-				<field name="widther" type="text" size="20" default="320" label="Width of module" description="Make this the same width as your images" />
-				<field name="heighter" type="text" size="20" default="280" label="Height of module" description="Make this the same height as your images" />
-				<field name="captions" type="list" default="2" label="Use captions?" description="">
+				<field name="uniqueid" type="text" size="20" default="5" label="MOD_COMPARISON_UNIQUE_ID_LABEL" description="MOD_COMPARISON_UNIQUE_ID_DESC" />
+				<field name="widther" type="text" size="20" default="320" label="MOD_COMPARISON_WIDTH_LABEL" />
+				<field name="heighter" type="text" size="20" default="280" label="MOD_COMPARISON_HEIGHT_LABEL" />
+				<field name="captions" type="list" default="2" label="MOD_COMPARISON_USE_CAPTIONS_LABEL">
 					<option value="1">JNO</option>
 					<option value="2">JYES</option>
 				</field>
-				<field name="beforetext" type="text" size="20" default="before" label="Before caption" description="" />
-				<field name="aftertext" type="text" size="20" default="after" label="After caption" description="" />
-				<field name="pic1" type="imagelist" default="" label="Before image" description="" directory="images/" exclude="" stripext="" />
-				<field name="pic2" type="imagelist" default="" label="After image" description="" directory="images/" exclude="" stripext="" />
+				<field name="beforetext" type="text" size="20" default="before" label="MOD_COMPARISON_BEFORE_CAPTION_LABEL" />
+				<field name="aftertext" type="text" size="20" default="after" label="MOD_COMPARISON_AFTER_CAPTION_LABEL" />
+				<field name="pic1" type="imagelist" directory="images/" label="MOD_COMPARISON_BEFORE_IMAGE_LABEL" />
+				<field name="pic2" type="imagelist" directory="images/" label="MOD_COMPARISON_AFTER_IMAGE_LABEL" />
 			</fieldset>
 			<fieldset name="advanced">
 				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
